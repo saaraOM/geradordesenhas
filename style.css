@@ -28,6 +28,10 @@ body{
     text-align: center;
     margin-top: 80px;
 }
+*{
+    font-weight: 400
+}
+
 .conteudo-senha{
     background: var(--fundo-senha);
     padding: 24px;
@@ -43,6 +47,11 @@ body{
 #campo-senha:focus{
     outline: none;
 }
+.conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .conteudo-senha{
     margin-top: 80px;
     background: var(--fundo-senha);
