@@ -27,10 +27,11 @@ geraSenha();
 campoSenha.value = letrasMaiusculas;
 
 function geraSenha(){
-  for (let i = 0; i < tamanhoSenha;i++){
-      let senha = '' ”;
-    let numeroAleatorio = Math.random()*letrasMaiusculas.length;
-    (numeroAleatorio);= Math.floor(numeroAleatorio);
+ let senha = '' ”;
+ for (let i = 0; i < tamanhoSenha;i++){
+     let numeroAleatorio = Math.random()*letrasMaiusculas.length;
+     numeroAleatorio;= Math.floor(numeroAleatorio);
     senha = senha + (letrasMaiusculas[numeroAleatorio]);
 }
+    campoSenha.value = senha;
 }
